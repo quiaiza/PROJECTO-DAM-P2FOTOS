@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">P2Fotos</string>
+    <!-- amigospatilha strings -->
+
+    <string name="as_fotos_ainda_n_o_ser_o_partinhadas_string">As Fotos ainda no sero partinhadas</string>
+    <string name="selecionar_parceiro_string">Selecionar Parceiro </string>
+    <string name="mostrar_contactos_do_telemov_l_string">Mostrar contactos do telemovl</string>
+    <string name="sugest_es_string">Sugestes</string>
+    <string name="escreva_um_nome_ou_endere_o_de_email_string">Escreva um nome ou  endereo de email</string>
+    <string name="para__string">Para:</string>
+    <string name="celcia_laura_string">Celcia Laura</string>
+    <string name="celciaquia_gmail_com_string">celciaquia@gmail.com</string>
+    <string name="sabino_aspirante_string">Sabino Aspirante</string>
+    <string name="sabino_gmail_com_string">sabino@gmail.com</string>
+    <string name="pedro_poto_string">Pedro Poto</string>
+    <string name="potop_gmail_com_string">potop@gmail.com</string>
+
+    <!-- compartilhado strings -->
+
+    <string name="nome_do_album_string7">Nome do Album</string>
+    <string name="_14_11_2022_string">14/11/2022</string>
+    <string name="fotos_compartinhadas_string">Fotos compartinhadas</string>
+
+    <!-- confirma_ao strings -->
+
+    <string name="mauro_string">Mauro</string>
+    <string name="a_partinha_com_celciaquia11_gmail_com_string">A partinha com celciaquia11@gmail.com</string>
+    <string name="confirmar_string">Confirmar </string>
+    <string name="celciaquia111_gmail_com_string">celciaquia11@gmail.com</string>
+    <string name="sabino_gmail_com_ter__acesso_a_string">sabino@gmail.com ter acesso a</string>
+    <string name="todas_as_fotos__incluindo_as_mais_antigas_string">Todas as fotos, incluindo as mais antigas</string>
+    <string name="a_localiza__o_onde_as_suas_fotos_partinhadas_foram_tiradads_string">A localizao onde as suas fotos partinhadas foram tiradads</string>
+    <string name="fotos_com_c_pias_de_seguran_a_no_futuro_string">Fotos com cpias de segurana no futuro</string>
+    <string name="enviar_convite_string">Enviar convite</string>
+    <!-- selecionar_fotos strings -->
+
+    <string name="cancelar_string">Cancelar</string>
+    <string name="nome_do_album_string1">Nome do album</string>
+    <string name="selecionar_fotos_ek3_string">Selecionar Fotos</string>
+    <string name="concluido_string">Concluido</string>
+    <!-- inicio strings -->
+
+
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="a_sua_galeria_string">A sua Galeria</string>
+    <string name="encontrar_string">Encontrar</string>
+    <string name="criar__lbuns_string">Criar lbuns</string>
+    <string name="o_teu_melhor_aplicativo_de_fotos_string">O teu Melhor Aplicativo de Fotos</string>
+    <string name="albuns_string">Albuns</string>
+    <string name="partinhar_string1">Partinhar</string>
+
+    <!-- sem_fotos strings -->
+
+    <string name="nenhuma_fotografia_string">Nenhuma Fotografia</string>
+    <string name="lbuns_string">Álbuns</string>
+    <string name="divertido_string">Divertido</string>
+    <string name="adicionar_string">Adicionar</string>
+
+
+    <!-- partiha strings -->
+
+    <string name="partilha_com_os_amigos_string">Partilha com os Amigos</string>
+    <string name="nunca_mais_se_esque_a_de_partilhar_uma_foto_com_o_amigo_partilhe_as_suas_melhores_fotos__ou_todas_as_suas_fotos_com_as_suas_pessoas_favoritas_string">Nunca mais se esquea de partilhar uma foto com o amigopartilhe as suas melhores fotos, ou todas as suas fotos com as suas pessoas favoritas</string>
+    <string name="selecione_o_seu_amigo_string">Selecione o seu amigo</string>
+    <string name="selecione_o_conteudo_que_pretende_partinhar_string">Selecione o conteudo que pretende partinhar</string>
+    <string name="come_ar_a_utilizar_string">Comear a utilizar</string>
+    <string name="_1_string">1</string>
+    <string name="_2_string">2</string>
+    <!-- home strings -->
+    <string name="come_ar_string">Começar</string>
+
+    <!-- foto_do_album strings -->
+
+    <string name="pr_ximo_string">Prximo</string>
+    <string name="cancelar_string1">Cancelar</string>
+    <string name="nome_do_album_string">Nome do album</string>
+    <string name="escolha_a_foto_do_album_string">Escolha a foto do album</string>
+
+    <!-- encontar_amigos strings -->
+
+    <string name="pessoas_string">Pessoas</string>
+    <string name="_lbuns_string">lbuns</string>
+    <string name="pesquisado_recentemente_string">Pesquisado Recentemente</string>
+    <string name="celcia_manucha_string">Celcia manucha</string>
+    <string name="divertido2_string">Divertido</string>
+    <string name="triste_string">Triste</string>
+    <string name="amor_string">Amor</string>
+    <string name="celcia_celcia_ek1_string">Celcia celcia</string>
+    <string name="sabino_aspirante_k2_string">Sabino Aspirant</string>
+    <string name="limpar_string">Limpar</string>
+    <string name="pessoas___lbuns__fotografias_string">Pessoas, álbuns, Fotografias</string>
+    <string name="encontrar_amigos_string">Encontrar Amigos</string>
+    <string name="criar_album_string">Criar Album</string>
+    <string name="encontrar_string77">Encontrar</string>
+    <string name="album_string"> Album</string>
+    <string name="partinhar_string">Partinhar</string>
+    <string name="home_string">Home</string>
+
+    <!-- ver_album strings -->
+
+    <string name="divertido1_string"> Divertido</string>
+
+    <!-- resgistar strings -->
+
+    <string name="sign_up_string">Sign up</string>
+    <string name="continue_string">Continue</string>
+    <string name="j__tenha_fa_o_parte____string">Já tenho conta...</string>
+    <string name="login_string">Login</string>
+    <string name="email_id_string1">Email ID</string>
+    <string name="senha_string1">Senha</string>
+
+    <!-- perfil strings -->
+
+    <string name="celcia_leja_string">Celcia Leja</string>
+    <string name="celciaquia11_gmail_com_string">Celciaquia11@gmail.com</string>
+    <string name="fotografias_string">Fotografias</string>
+    <string name="adicionar_ao__lbum_string1">Adicionar ao álbum </string>
+
+    <!-- menu strings -->
+
+    <string name="ver__lbum_string">Ver álbum</string>
+    <string name="criar__lbum_string">Criar álbum</string>
+    <string name="listar_os__lbuns_string">Listar os álbuns </string>
+    <string name="adicionar_fotos_string2">Adicionar Fotos</string>
+    <string name="encontar_amigos_string">Encontar amigos</string>
+
+    <!-- login strings -->
+
+    <string name="login_ek3_string">Login</string>
+    <string name="entrar_string">Entrar</string>
+    <string name="junta_se_a_n_s_antes___string">Junta-se a ns antes !</string>
+    <string name="registar_string">Registar</string>
+    <string name="email_id_string">Email ID</string>
+    <string name="senha_string">Senha</string>
+
+
+    <!-- listar_album strings -->
+
+    <string name="meus__lbuns_string">Meus álbuns </string>
+    <string name="nome_album_string4">Nome Album</string>
+    <string name="nome_album_ek1_string1">Nome Album</string>
+    <string name="nome_album_ek2_string2">Nome Album</string>
+    <string name="nome_album_ek3_string3">Nome Album</string>
+    <string name="pesquisar__lbum_string">Pesquisar álbum</string>
+    <string name="adicionar_fotos_string">Adicionar fotos</string>
+    <string name="criar_album_string1">Criar Album</string>
+    <string name="encontrar_string2">Encontrar</string>
+    <string name="partinhar_string2">Partinhar</string>
+    <string name="home_string1">Home</string>
+    <!-- criar_album strings -->
+
+    <string name="novo__lbum_string5">Novo álbum</string>
+    <string name="digite_um_nome_para_o__lbum_string">Digite um nome para o álbum</string>
+    <string name="titulo_string">Titulo</string>
+    <string name="cancelar_string2">Cancelar</string>
+    <string name="pr_ximo_string1">Próximo</string>
+    <string name="adicionar_ao__lbum_string" />
+</resources>
