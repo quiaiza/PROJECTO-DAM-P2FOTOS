@@ -1,0 +1,133 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/login" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_login_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__login_ek2"
+					android:background="@drawable/_bg__login_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="736dp" />
+
+				<TextView android:id="@+id/login_ek3"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="48sp"
+					android:textColor="@color/login_ek3_color"
+					android:layout_marginLeft="27dp"
+					android:layout_marginTop="343dp"
+					android:layout_width="223dp"
+					android:layout_height="84dp"
+					android:text="@string/login_ek3_string"
+					 />
+
+				<Button
+					android:id="@+id/btn_login"
+					android:layout_width="229dp"
+					android:layout_height="60dp"
+					android:layout_marginStart="92dp"
+					android:layout_marginTop="585dp"
+					android:hint="Entrar"
+					android:textColorHint="@color/white"
+					android:background="@drawable/rectangle_53_shape"
+
+					/>
+				<TextView android:id="@+id/junta_se_a_n_s_antes__"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/junta_se_a_n_s_antes___color"
+					android:layout_marginLeft="55dp"
+					android:layout_marginTop="684dp"
+					android:layout_width="208dp"
+					android:layout_height="41dp"
+					android:text="@string/junta_se_a_n_s_antes___string"
+					 />
+
+				<TextView
+					android:id="@+id/registar"
+					android:layout_width="91dp"
+					android:layout_height="48dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="258dp"
+					android:layout_marginTop="688dp"
+					android:gravity="center"
+					android:text="@string/registar_string"
+					android:textColor="@color/login_ek3_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+
+
+				<EditText android:id="@+id/email_id"
+					android:layout_marginTop="454dp"
+					android:layout_width="316dp"
+					android:layout_height="50dp"
+					android:layout_marginLeft="50dp"
+					android:hint="Email"
+					android:textSize="25dp"
+					android:textColorHint="@color/sign_up_color"
+					android:background="@drawable/rectangle_14_shape"
+					android:layout_marginBottom="30dp"
+					android:paddingLeft="30dp"
+					/>
+				<EditText android:id="@+id/senha"
+					android:layout_marginTop="514dp"
+					android:layout_width="316dp"
+					android:layout_height="50dp"
+					android:layout_marginLeft="50dp"
+					android:hint="Senha"
+					android:textSize="25dp"
+					android:textColorHint="@color/sign_up_color"
+					android:background="@drawable/rectangle_14_shape"
+					android:layout_marginBottom="30dp"
+					android:paddingLeft="30dp"
+					/>
+				<ImageView
+					android:id="@+id/google_btn"
+					android:layout_width="87dp"
+					android:layout_height="88dp"
+					android:layout_marginTop="600dp"
+					android:background="@drawable/google"/>
+
+
+				<View   android:id="@+id/line_2"
+					android:background="@drawable/line_2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="678dp"
+					android:layout_width="414dp"
+					android:layout_height="1dp" />
+
+
+				<ImageView
+					android:id="@+id/security_on_cuate_1"
+					android:src="@drawable/security_on_cuate_1"
+					android:contentDescription="security_on_cuate_1"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="434dp"
+					android:layout_height="434dp" />
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

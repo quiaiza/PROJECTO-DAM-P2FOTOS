@@ -1,0 +1,118 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/menu" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_menu_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+
+
+				<View
+					android:id="@+id/_bg__menu_ek2"
+					android:layout_width="414dp"
+					android:layout_height="736dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__menu_ek2_shape" />
+
+				<TextView android:id="@+id/ver__lbum"
+					android:textStyle="bold"
+					android:layout_gravity="center_vertical|end"
+					android:gravity="end"
+					android:textSize="32sp"
+					android:textColor="@color/ver__lbum_color"
+					android:layout_marginLeft="105dp"
+					android:layout_marginTop="250dp"
+					android:layout_width="174dp"
+					android:layout_height="66dp"
+					android:text="@string/ver__lbum_string"
+					android:onClick="veralbum"
+					 />
+
+				<TextView android:id="@+id/criar__lbum"
+					android:textStyle="bold"
+					android:layout_gravity="center_vertical|end"
+					android:gravity="end"
+					android:textSize="32sp"
+					android:textColor="@color/ver__lbum_color"
+					android:layout_marginLeft="100dp"
+					android:layout_marginTop="177dp"
+					android:layout_width="196dp"
+					android:layout_height="66dp"
+					android:text="@string/criar__lbum_string"
+					android:onClick="criaralbum"
+					 />
+
+				<TextView android:id="@+id/listar_os__lbuns"
+					android:textStyle="bold"
+					android:layout_gravity="center_vertical|end"
+					android:gravity="end"
+					android:textSize="32sp"
+					android:textColor="@color/ver__lbum_color"
+					android:layout_marginLeft="58dp"
+					android:layout_marginTop="320dp"
+					android:layout_width="280dp"
+					android:layout_height="66dp"
+					android:onClick="partinhar"
+					android:text="Partinhar álbum"
+					 />
+
+				<TextView
+					android:id="@+id/encontar_amigos"
+					android:layout_width="280dp"
+					android:layout_height="66dp"
+					android:layout_gravity="center_vertical|end"
+					android:layout_marginLeft="52dp"
+					android:layout_marginTop="392dp"
+					android:gravity="end"
+					android:onClick="encontraramigos"
+					android:text="@string/encontar_amigos_string"
+					android:textColor="@color/ver__lbum_color"
+					android:textSize="32sp"
+					android:textStyle="bold" />
+
+				<View   android:id="@+id/ellipse_4"
+					android:background="@drawable/ellipse_4_shape"
+					 android:alpha="0.81999999284744"
+					 android:layout_marginStart="-37dp"
+					android:layout_marginTop="-35dp"
+					android:layout_width="165dp"
+					android:layout_height="165dp" />
+
+				<View   android:id="@+id/ellipse_5555"
+					android:background="@drawable/ellipse_5_shape"
+					 android:alpha="0.6700000166893"
+					 android:layout_marginStart="27dp"
+					android:layout_marginTop="-69dp"
+					android:layout_width="166dp"
+					android:layout_height="166dp" />
+
+				<ImageView
+
+					android:id="@+id/imageView7"
+					android:layout_width="60dp"
+					android:layout_height="40dp"
+					android:onClick="voltar"
+					android:src="@drawable/close"
+					tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

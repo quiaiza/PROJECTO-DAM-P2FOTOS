@@ -1,0 +1,139 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/ver_album" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_ver_album_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__ver_album_ek2"
+					android:background="@drawable/_bg__ver_album_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="737dp" />
+
+
+				<TextView
+					android:id="@+id/divertido"
+					android:layout_width="169dp"
+					android:layout_height="66dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="65dp"
+					android:layout_marginTop="69dp"
+					android:gravity="center"
+					android:text="@string/divertido_string"
+					android:textColor="@color/divertido_color"
+					android:textSize="32sp"
+					android:textStyle="bold" />
+
+				<View   android:id="@+id/ellipse_44_ek1"
+					android:background="@drawable/ellipse_4_shape"
+					 android:alpha="0.81999999284744"
+					 android:layout_marginStart="334dp"
+					android:layout_marginTop="-31dp"
+					android:layout_width="126dp"
+					android:layout_height="133dp" />
+
+				<View   android:id="@+id/ellipse_45_ek1"
+					android:background="@drawable/ellipse_4_ek1_shape"
+					 android:alpha="0.6700000166893"
+					 android:layout_marginStart="261dp"
+					android:layout_marginTop="-114dp"
+					android:layout_width="166dp"
+					android:layout_height="166dp" />
+
+				<View   android:id="@+id/line_11"
+					android:background="@drawable/line_11_shape"
+					 android:layout_marginStart="-3dp"
+					android:layout_marginTop="196dp"
+					android:layout_width="207dp"
+					android:layout_height="3dp" />
+
+				<View   android:id="@+id/line_12"
+					android:background="@drawable/line_11_shape"
+					 android:layout_marginStart="207dp"
+					android:layout_marginTop="196dp"
+					android:layout_width="207dp"
+					android:layout_height="3dp" />
+
+
+
+
+				<ImageView
+					android:id="@+id/arrow_4"
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:layout_marginStart="38dp"
+					android:layout_marginTop="40dp"
+					android:contentDescription="arrow_4"
+					android:onClick="voltar"
+					android:src="@drawable/arrow_4" />
+
+
+				<Button
+					android:id="@+id/select"
+					android:layout_width="159dp"
+					android:layout_height="48dp"
+					android:layout_marginLeft="120dp"
+					android:layout_marginTop="215dp"
+					android:background="@drawable/rectangle_53_shape"
+					android:hint="Selecionar Fotos"
+					android:textColorHint="@color/white" />
+
+				<ImageSwitcher
+					android:id="@+id/image"
+					android:layout_width="300dp"
+					android:layout_height="228dp"
+					android:layout_marginStart="51dp"
+					android:layout_marginTop="300dp"
+					android:src="@android:drawable/ic_menu_camera" />
+
+				<!--click here to view previous image-->
+				<Button
+					android:id="@+id/previous"
+					android:layout_width="159dp"
+					android:layout_height="48dp"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="600dp"
+					android:background="@drawable/rectangle_53_shape"
+					android:hint="Anterior"
+					android:textColorHint="@color/white" />
+
+				<!--click here to view next image-->
+				<Button
+					android:id="@+id/next"
+					android:layout_width="159dp"
+					android:layout_height="48dp"
+					android:layout_marginLeft="240dp"
+					android:layout_marginTop="600dp"
+					android:background="@drawable/rectangle_53_shape"
+					android:hint="Proximo"
+					android:textColorHint="@color/white" />
+
+				<TextView
+					android:id="@+id/text"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textColor="#000"
+					android:textSize="22sp"
+					android:textStyle="bold" />
+
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

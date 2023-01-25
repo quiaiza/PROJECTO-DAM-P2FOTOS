@@ -1,0 +1,169 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/confirma_ao" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_confirma_ao_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__confirma_ao_ek2"
+					android:background="@drawable/_bg__confirma_ao_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="737dp" />
+
+				<ImageView
+					android:id="@+id/arrow_2"
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:layout_marginStart="22dp"
+					android:layout_marginTop="60dp"
+					android:contentDescription="arrow_2"
+					android:onClick="voltar"
+					android:src="@drawable/arrow_2" />
+
+				<View   android:id="@+id/ellipse_8"
+					android:background="@drawable/ellipse_8_shape"
+					 android:layout_marginStart="24dp"
+					android:layout_marginTop="166dp"
+					android:layout_width="89dp"
+					android:layout_height="89dp" />
+
+				<TextView android:id="@+id/celcia_laura"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/celcia_laura_color"
+					android:layout_marginLeft="177dp"
+					android:layout_marginTop="179dp"
+					android:layout_width="149dp"
+					android:layout_height="50dp"
+					android:text="@string/celcia_laura_string"
+					 />
+
+				<TextView android:id="@+id/a_partinha_com_celciaquia11_gmail_com"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="16sp"
+					android:textColor="@color/celcia_laura_color"
+					android:layout_marginLeft="62dp"
+					android:layout_marginTop="80dp"
+					android:layout_width="306dp"
+					android:layout_height="33dp"
+					android:text="@string/a_partinha_com_celciaquia11_gmail_com_string"
+					 />
+
+				<TextView android:id="@+id/confirmar"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/celcia_laura_color"
+					android:layout_marginLeft="105dp"
+					android:layout_marginTop="47dp"
+					android:layout_width="126dp"
+					android:layout_height="50dp"
+					android:text="@string/confirmar_string"
+					 />
+
+				<TextView android:id="@+id/celciaquia11_gmail_com"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/celcia_laura_color"
+					android:layout_marginLeft="122dp"
+					android:layout_marginTop="212dp"
+					android:layout_width="285dp"
+					android:layout_height="50dp"
+					android:text="@string/celciaquia11_gmail_com_string"
+					 />
+
+				<TextView android:id="@+id/sabino_gmail_com_ter__acesso_a"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/celcia_laura_color"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="304dp"
+					android:layout_width="367dp"
+					android:layout_height="50dp"
+					android:text="@string/sabino_gmail_com_ter__acesso_a_string"
+					 />
+
+				<TextView android:id="@+id/todas_as_fotos__incluindo_as_mais_antigas"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/celcia_laura_color"
+					android:layout_marginLeft="46dp"
+					android:layout_marginTop="420dp"
+					android:layout_width="341dp"
+					android:layout_height="38dp"
+					android:text="@string/todas_as_fotos__incluindo_as_mais_antigas_string"
+					 />
+
+				<TextView android:id="@+id/a_localiza__o_onde_as_suas_fotos_partinhadas_foram_tiradads"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/celcia_laura_color"
+					android:layout_marginLeft="34dp"
+					android:layout_marginTop="528dp"
+					android:layout_width="376dp"
+					android:layout_height="63dp"
+					android:text="@string/a_localiza__o_onde_as_suas_fotos_partinhadas_foram_tiradads_string"
+					 />
+
+				<TextView android:id="@+id/fotos_com_c_pias_de_seguran_a_no_futuro"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/celcia_laura_color"
+					android:layout_marginLeft="44dp"
+					android:layout_marginTop="475dp"
+					android:layout_width="343dp"
+					android:layout_height="38dp"
+					android:text="@string/fotos_com_c_pias_de_seguran_a_no_futuro_string"
+					 />
+
+				<View
+					android:id="@+id/rectangle_59"
+					android:layout_width="202dp"
+					android:layout_height="56dp"
+					android:layout_marginStart="106dp"
+					android:layout_marginTop="625dp"
+					android:background="@drawable/rectangle_59_shape"
+					android:contentDescription="@string/_2_string"
+					android:onClick="enviarconvite" />
+
+				<TextView
+					android:id="@+id/enviar_convite"
+					android:layout_width="173dp"
+					android:layout_height="50dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="125dp"
+					android:layout_marginTop="630dp"
+					android:gravity="center"
+					android:text="@string/enviar_convite_string"
+					android:textColor="@color/_bg__confirma_ao_ek2_color"
+					android:textSize="24sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

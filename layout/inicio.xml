@@ -1,0 +1,154 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView
+		android:id="@+id/menu"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+
+			<RelativeLayout
+				android:id="@+id/page_menu_ek1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__amigospatilha_ek2"
+					android:layout_width="435dp"
+					android:layout_height="740dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__inicio_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/imageView"
+					android:layout_width="183dp"
+					android:layout_height="260dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="180dp"
+					android:onClick="criaralbum"
+					android:src="@drawable/criaralbum_1"
+					tools:ignore="SpeakableTextPresentCheck" />
+
+				<ImageView
+					android:id="@+id/imageView2"
+					android:layout_width="201dp"
+					android:layout_height="182dp"
+					android:layout_marginLeft="200dp"
+					android:layout_marginTop="200dp"
+					android:onClick="veralbum"
+					android:src="@drawable/album_1"
+					tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+				<ImageView
+					android:id="@+id/imageView3"
+					android:layout_width="196dp"
+					android:layout_height="338dp"
+					android:layout_marginLeft="205dp"
+					android:layout_marginTop="370dp"
+					android:onClick="partilhar"
+					android:src="@drawable/partilhar_1"
+					tools:ignore="SpeakableTextPresentCheck" />
+
+				<ImageView
+					android:id="@+id/imageView4"
+					android:layout_width="178dp"
+					android:layout_height="306dp"
+					android:layout_marginLeft="8dp"
+					android:layout_marginTop="430dp"
+					android:onClick="encontraramigos"
+					android:src="@drawable/pexels_photo_3217852_1"
+					tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+				<ImageView
+					android:id="@+id/imageView5"
+					android:layout_width="102dp"
+			   		android:layout_height="89dp"
+					android:onClick="menu"
+					android:src="@drawable/_9110356_menu_icon_1"
+					tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+				<ImageView
+					android:id="@+id/imageView6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="350dp"
+					android:layout_marginTop="20dp"
+					android:onClick="perfil"
+					android:src="@drawable/ellipse_1"
+					tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+
+
+
+
+
+				<TextView
+					android:layout_marginTop="110dp"
+					android:layout_marginLeft="50dp"
+					android:id="@+id/textView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Bem-Vindo ao P2Fotos"
+					android:textColor="#769BEF"
+					android:textSize="34sp" />
+
+				<TextView
+					android:layout_marginTop="300dp"
+					android:layout_marginLeft="30dp"
+					android:id="@+id/textView3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Criar Álbum"
+					android:textColor="#FFFFFF"
+					android:textSize="24sp"
+					/>
+
+				<TextView
+					android:layout_marginTop="550dp"
+					android:layout_marginLeft="50dp"
+					android:id="@+id/textView6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Encontar"
+					android:textColor="#FFFFFF"
+					android:textSize="24sp"
+					/>
+				<TextView
+					android:layout_marginTop="260dp"
+					android:layout_marginLeft="250dp"
+					android:id="@+id/textView4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Ver Álbum"
+					android:textColor="#FFFFFF"
+					android:textSize="24sp"
+					/>
+				<TextView
+					android:layout_marginTop="550dp"
+					android:layout_marginLeft="260dp"
+					android:id="@+id/textView5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Partilhar"
+					android:textColor="#FFFFFF"
+					android:textSize="24sp"
+					/>
+
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

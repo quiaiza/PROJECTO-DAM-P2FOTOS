@@ -1,0 +1,175 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/perfil" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_perfil_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__perfil_ek2"
+					android:background="@drawable/_bg__perfil_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="737dp" />
+
+				<View   android:id="@+id/ellipse_5"
+					android:background="@drawable/ellipse_5_shape"
+					 android:layout_marginStart="118dp"
+					android:layout_marginTop="32dp"
+					android:layout_width="188dp"
+					android:layout_height="188dp" />
+
+				<TextView android:id="@+id/celcia_quiaiza"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="32sp"
+					android:textColor="@color/celcia_quiaiza_color"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="230dp"
+					android:layout_width="229dp"
+					android:layout_height="66dp"
+					android:text="@string/celcia_leja_string"
+					 />
+
+				<TextView android:id="@+id/celciaquia11_gmail_com"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/celcia_quiaiza_color"
+					android:layout_marginLeft="21dp"
+					android:layout_marginTop="275dp"
+					android:layout_width="249dp"
+					android:layout_height="41dp"
+					android:text="@string/celciaquia11_gmail_com_string"
+					 />
+
+				<TextView android:id="@+id/fotografias"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="32sp"
+					android:textColor="@color/celcia_quiaiza_color"
+					android:layout_marginLeft="19dp"
+					android:layout_marginTop="364dp"
+					android:layout_width="190dp"
+					android:layout_height="66dp"
+					android:text="@string/fotografias_string"
+					 />
+
+				<View   android:id="@+id/rectangle_28"
+					android:background="@drawable/rectangle_28_shape"
+					 android:layout_marginStart="11dp"
+					android:layout_marginTop="425dp"
+					android:layout_width="122dp"
+					android:layout_height="114dp" />
+
+				<View   android:id="@+id/rectangle_29"
+					android:background="@drawable/rectangle_29_shape"
+					 android:layout_marginStart="147dp"
+					android:layout_marginTop="425dp"
+					android:layout_width="122dp"
+					android:layout_height="114dp" />
+
+				<View   android:id="@+id/rectangle_30"
+					android:background="@drawable/rectangle_30_shape"
+					 android:layout_marginStart="280dp"
+					android:layout_marginTop="425dp"
+					android:layout_width="122dp"
+					android:layout_height="114dp" />
+
+				<View   android:id="@+id/rectangle_31"
+					android:background="@drawable/rectangle_31_shape"
+					 android:layout_marginStart="11dp"
+					android:layout_marginTop="568dp"
+					android:layout_width="122dp"
+					android:layout_height="114dp" />
+
+				<View   android:id="@+id/rectangle_32"
+					android:background="@drawable/rectangle_32_shape"
+					 android:layout_marginStart="147dp"
+					android:layout_marginTop="568dp"
+					android:layout_width="122dp"
+					android:layout_height="114dp" />
+
+				<View   android:id="@+id/rectangle_33"
+					android:background="@drawable/rectangle_33_shape"
+					 android:layout_marginStart="280dp"
+					android:layout_marginTop="568dp"
+					android:layout_width="122dp"
+					android:layout_height="114dp" />
+
+				<ImageView android:id="@+id/rectangle_40"
+					android:src="@drawable/rectangle_40"
+					android:contentDescription="rectangle_40"
+					 android:layout_marginStart="-388dp"
+					android:layout_marginTop="340.5dp"
+					android:layout_width="261dp"
+					android:layout_height="55dp" />
+
+				<View   android:id="@+id/ellipse_6"
+					android:background="@drawable/ellipse_6_shape"
+					 android:alpha="0.81999999284744"
+					 android:layout_marginStart="306dp"
+					android:layout_marginTop="-35dp"
+					android:layout_width="102dp"
+					android:layout_height="102dp" />
+
+				<View   android:id="@+id/ellipse_7"
+					android:background="@drawable/ellipse_7_shape"
+					 android:alpha="0.6700000166893"
+					 android:layout_marginStart="341dp"
+					android:layout_marginTop="-26dp"
+					android:layout_width="116dp"
+					android:layout_height="116dp" />
+
+				<ImageView android:id="@+id/rectangle_41"
+					android:src="@drawable/rectangle_41"
+					android:contentDescription="rectangle_41"
+					 android:layout_marginStart="175dp"
+					android:layout_marginTop="319dp"
+					android:layout_width="242dp"
+					android:layout_height="44dp"
+					android:onClick="voltar"/>
+
+				<TextView android:id="@+id/adicionar_ao__lbum"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/adicionar_ao__lbum_color"
+					android:layout_marginLeft="187dp"
+					android:layout_marginTop="310dp"
+					android:layout_width="226dp"
+					android:layout_height="61dp"
+					android:text="@string/adicionar_ao__lbum_string1"
+					 />
+
+				<ImageView
+					android:id="@+id/arrow_3"
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:layout_marginStart="23dp"
+					android:layout_marginTop="45dp"
+					android:contentDescription="arrow_3"
+					android:onClick="voltar"
+					android:src="@drawable/arrow_3" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,227 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/listar_album" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_marginTop="0dp"
+			android:layout_marginStart="0dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			>
+
+			<RelativeLayout android:id="@+id/page_listar_album_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__listar_album_ek2"
+					android:background="@drawable/_bg__listar_album_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="737dp" />
+
+				<TextView android:id="@+id/meus__lbuns"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="32sp"
+					android:textColor="@color/meus__lbuns_color"
+					android:layout_marginLeft="106dp"
+					android:layout_marginTop="88dp"
+					android:layout_width="280dp"
+					android:layout_height="66dp"
+					android:text="@string/meus__lbuns_string"
+					 />
+
+				<View   android:id="@+id/ellipse_2"
+					android:background="@drawable/ellipse_2_shape"
+					 android:alpha="0.81999999284744"
+					 android:layout_marginStart="-56dp"
+					android:layout_marginTop="-34dp"
+					android:layout_width="165dp"
+					android:layout_height="165dp" />
+
+				<View   android:id="@+id/ellipse_3"
+					android:background="@drawable/ellipse_3_shape"
+					 android:alpha="0.6700000166893"
+					 android:layout_marginStart="12dp"
+					android:layout_marginTop="-73dp"
+					android:layout_width="166dp"
+					android:layout_height="166dp" />
+
+
+				<View
+					android:id="@+id/rectangle_377"
+					android:layout_width="331dp"
+					android:layout_height="13dp"
+					android:layout_marginStart="59dp"
+					android:layout_marginTop="145dp"
+					android:alpha="0.49000000953674"
+					android:background="@drawable/rectangle_37_shape"
+					android:contentDescription="@string/adicionar_ao__lbum_string"
+					android:onClick="pesquisar"
+					tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+				<RelativeLayout android:id="@+id/search"
+					android:layout_marginTop="135dp"
+					android:layout_marginStart="76dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+				<View
+					android:id="@+id/rectangle_43"
+					android:layout_width="183dp"
+					android:layout_height="34dp"
+					android:layout_marginStart="241dp"
+					android:layout_marginTop="30dp"
+					android:alpha="0.20999999344349"
+					android:background="@drawable/rectangle_43_shape"
+					android:onClick="addfotos"
+					tools:ignore="SpeakableTextPresentCheck" />
+
+				<TextView android:id="@+id/adicionar_fotos"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/meus__lbuns_color"
+					android:layout_marginLeft="271dp"
+					android:layout_marginTop="30dp"
+					android:layout_width="136dp"
+					android:layout_height="38dp"
+					android:text="@string/adicionar_fotos_string"
+					 />
+
+				<View   android:id="@+id/rectangle_51"
+					android:background="@drawable/rectangle_51_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="673dp"
+					android:layout_width="414dp"
+					android:layout_height="64dp" />
+
+				<ImageView
+					android:id="@+id/albums"
+					android:layout_width="47dp"
+					android:layout_height="47dp"
+					android:layout_marginStart="269dp"
+					android:layout_marginTop="675dp"
+					android:contentDescription="albums"
+					android:onClick="veralbum"
+					android:src="@drawable/albums"
+					tools:ignore="TouchTargetSizeCheck" />
+
+				<ImageView android:id="@+id/image_gallery"
+					android:src="@drawable/image_gallery"
+					android:contentDescription="image_gallery"
+					 android:alpha="0.30000001192093"
+					android:layout_marginStart="187dp"
+					android:layout_marginTop="673dp"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:onClick="partinhar"/>
+
+				<ImageView
+					android:id="@+id/search_for_love"
+					android:layout_width="45dp"
+					android:layout_height="45dp"
+					android:layout_marginStart="346dp"
+					android:layout_marginTop="677dp"
+					android:alpha="0.30000001192093"
+					android:contentDescription="search_for_love"
+					android:onClick="encontraramigos"
+					android:src="@drawable/search_for_love"
+					tools:ignore="TouchTargetSizeCheck" />
+
+				<TextView android:id="@+id/criar_album"
+					android:textStyle="bold"
+					android:alpha="0.3"
+					 android:textSize="13sp"
+					android:textColor="@color/meus__lbuns_color"
+					android:layout_marginLeft="87dp"
+					android:layout_marginTop="719dp"
+					android:layout_width="92.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/criar_album_string"
+					 />
+
+				<TextView android:id="@+id/encontrar"
+					android:textStyle="bold"
+					android:alpha="0.3"
+					 android:textSize="13sp"
+					android:textColor="@color/meus__lbuns_color"
+					android:layout_marginLeft="341dp"
+					android:layout_marginTop="718dp"
+					android:layout_width="77.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/encontrar_string"
+					 />
+
+				<TextView android:id="@+id/partinhar"
+					android:textStyle="bold"
+					android:alpha="0.3"
+					 android:textSize="13sp"
+					android:textColor="@color/meus__lbuns_color"
+					android:layout_marginLeft="182dp"
+					android:layout_marginTop="719dp"
+					android:layout_width="75.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/partinhar_string"
+					 />
+
+				<TextView android:id="@+id/home"
+					android:textStyle="bold"
+					android:alpha="0.3"
+					 android:textSize="13sp"
+					android:textColor="@color/meus__lbuns_color"
+					android:layout_marginLeft="29dp"
+					android:layout_marginTop="719dp"
+					android:layout_width="54.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/home_string"
+					 />
+
+				<ImageView
+					android:id="@+id/vector_ek2"
+					android:layout_width="37dp"
+					android:layout_height="37dp"
+					android:layout_marginStart="29dp"
+					android:layout_marginTop="679dp"
+					android:alpha="0.30000001192093"
+					android:contentDescription="vector_ek2"
+					android:onClick="home"
+					android:src="@drawable/homev"
+					tools:ignore="TouchTargetSizeCheck" />
+
+				<ImageView android:id="@+id/add_image"
+					android:src="@drawable/add_image"
+					android:contentDescription="add_image"
+					 android:alpha="0.30000001192093"
+					android:layout_marginStart="100dp"
+					android:layout_marginTop="673dp"
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:onClick="criaralbum"/>
+
+				<GridView
+					android:layout_alignParentTop="true"
+					android:layout_centerHorizontal="true"
+					android:numColumns="auto_fit"
+					android:gravity="center"
+					android:columnWidth="120dp"
+					android:id="@+id/gridview"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="200dp"/>
+
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

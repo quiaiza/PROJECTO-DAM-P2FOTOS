@@ -1,0 +1,393 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/encontar_amigos" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_encontar_amigos_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__encontar_amigos_ek2"
+					android:background="@drawable/_bg__encontar_amigos_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="736dp" />
+
+				<ImageView android:id="@+id/vector"
+					android:src="@drawable/procurar"
+					android:contentDescription="vector"
+					 android:layout_marginStart="49dp"
+					android:layout_marginTop="126dp"
+					android:layout_width="35.71dp"
+					android:layout_height="35.71dp" />
+
+				<TextView android:id="@+id/pessoas"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="31dp"
+					android:layout_marginTop="177dp"
+					android:layout_width="108dp"
+					android:layout_height="50dp"
+					android:text="@string/pessoas_string"
+					 />
+
+				<TextView android:id="@+id/_lbuns"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="31dp"
+					android:layout_marginTop="389dp"
+					android:layout_width="97dp"
+					android:layout_height="50dp"
+					android:text="Álbuns"
+					 />
+
+				<TextView android:id="@+id/pesquisado_recentemente"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="22dp"
+					android:layout_marginTop="579dp"
+					android:layout_width="311dp"
+					android:layout_height="50dp"
+					android:text="@string/pesquisado_recentemente_string"
+					 />
+
+				<TextView android:id="@+id/celcia_laura"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="25dp"
+					android:layout_marginTop="333dp"
+					android:layout_width="113dp"
+					android:layout_height="38dp"
+					android:text="@string/celcia_laura_string"
+					 />
+
+				<TextView android:id="@+id/divertido"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="44dp"
+					android:layout_marginTop="541dp"
+					android:layout_width="89dp"
+					android:layout_height="38dp"
+					android:text="@string/divertido_string"
+					 />
+
+				<TextView android:id="@+id/triste"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="187dp"
+					android:layout_marginTop="541dp"
+					android:layout_width="59dp"
+					android:layout_height="38dp"
+					android:text="@string/triste_string"
+					 />
+
+				<TextView android:id="@+id/amor"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="300dp"
+					android:layout_marginTop="541dp"
+					android:layout_width="59dp"
+					android:layout_height="38dp"
+					android:text="@string/amor_string"
+					 />
+
+				<TextView android:id="@+id/celcia_laura_ek1"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="157dp"
+					android:layout_marginTop="333dp"
+					android:layout_width="113dp"
+					android:layout_height="38dp"
+					android:text="@string/celcia_celcia_ek1_string"
+					 />
+
+				<TextView android:id="@+id/celcia_laura_ek2"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="18sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="281dp"
+					android:layout_marginTop="333dp"
+					android:layout_width="113dp"
+					android:layout_height="38dp"
+					android:text="@string/sabino_aspirante_k2_string"
+					 />
+
+				<TextView
+					android:id="@+id/limpar"
+					android:layout_width="70dp"
+					android:layout_height="48dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="333dp"
+					android:layout_marginTop="585dp"
+					android:gravity="center"
+					android:onClick="limpar"
+					android:text="@string/limpar_string"
+					android:textColor="@color/limpar_color"
+					android:textSize="18sp" />
+
+				<View   android:id="@+id/ellipse_8"
+					android:background="@drawable/ellipse_8_shape"
+					 android:layout_marginStart="26dp"
+					android:layout_marginTop="216dp"
+					android:layout_width="104dp"
+					android:layout_height="104dp" />
+
+				<View   android:id="@+id/ellipse_10"
+					android:background="@drawable/ellipse_10_shape"
+					 android:layout_marginStart="284dp"
+					android:layout_marginTop="216dp"
+					android:layout_width="104dp"
+					android:layout_height="104dp" />
+
+				<View   android:id="@+id/ellipse_9"
+					android:background="@drawable/ellipse_9_shape"
+					 android:layout_marginStart="155dp"
+					android:layout_marginTop="216dp"
+					android:layout_width="104dp"
+					android:layout_height="104dp" />
+
+				<View   android:id="@+id/rectangle_48"
+					android:background="@drawable/rectangle_48_shape"
+					 android:layout_marginStart="35dp"
+					android:layout_marginTop="435dp"
+					android:layout_width="93dp"
+					android:layout_height="93dp" />
+
+				<View   android:id="@+id/rectangle_49"
+					android:background="@drawable/rectangle_49_shape"
+					 android:layout_marginStart="157dp"
+					android:layout_marginTop="435dp"
+					android:layout_width="93dp"
+					android:layout_height="93dp" />
+
+				<View   android:id="@+id/rectangle_50"
+					android:background="@drawable/rectangle_50_shape"
+					 android:layout_marginStart="279dp"
+					android:layout_marginTop="435dp"
+					android:layout_width="93dp"
+					android:layout_height="93dp" />
+
+				<View   android:id="@+id/line_9"
+					android:background="@drawable/line_9_shape"
+					 android:alpha="0.5"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="621dp"
+					android:layout_width="414dp"
+					android:layout_height="1dp" />
+
+				<View   android:id="@+id/line_10"
+					android:background="@drawable/line_10_shape"
+					 android:alpha="0.5"
+					 android:layout_marginStart="1dp"
+					android:layout_marginTop="659dp"
+					android:layout_width="414dp"
+					android:layout_height="1dp" />
+
+				<View   android:id="@+id/ellipse_6"
+					android:background="@drawable/ellipse_6_shape"
+					 android:alpha="0.81999999284744"
+					 android:layout_marginStart="-44dp"
+					android:layout_marginTop="-39dp"
+					android:layout_width="165dp"
+					android:layout_height="165dp" />
+
+				<View   android:id="@+id/ellipse_7"
+					android:background="@drawable/ellipse_7_shape"
+					 android:alpha="0.6700000166893"
+					 android:layout_marginStart="24dp"
+					android:layout_marginTop="-78dp"
+					android:layout_width="166dp"
+					android:layout_height="166dp" />
+
+				<View
+					android:id="@+id/rectangle_37"
+					android:layout_width="377dp"
+					android:layout_height="48dp"
+					android:layout_marginStart="24dp"
+					android:layout_marginTop="126dp"
+					android:alpha="0.49000000953674"
+					android:background="@drawable/rectangle_37_shape"
+					android:onClick="pesquisar"
+					tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+				<EditText
+					android:id="@+id/pessoas___lbuns__fotografias"
+					android:layout_width="372dp"
+					android:layout_height="48dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="38dp"
+					android:layout_marginTop="130dp"
+					android:gravity="center"
+					android:text="Pessoas álbuns fotografias"
+					android:textColor="@color/pessoas_color"
+					android:textSize="20sp" />
+
+				<TextView android:id="@+id/encontrar_amigos"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="32sp"
+					android:textColor="@color/pessoas_color"
+					android:layout_marginLeft="73dp"
+					android:layout_marginTop="67dp"
+					android:layout_width="288dp"
+					android:layout_height="66dp"
+					android:text="@string/encontrar_amigos_string"
+					 />
+
+				<View   android:id="@+id/rectangle_51"
+					android:background="@drawable/rectangle_51_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="672dp"
+					android:layout_width="414dp"
+					android:layout_height="64dp" />
+
+				<ImageView android:id="@+id/add_image"
+					android:src="@drawable/add_image"
+					android:contentDescription="add_image"
+					 android:alpha="0.30000001192093"
+					android:layout_marginStart="101dp"
+					android:layout_marginTop="672dp"
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:onClick="criaralbum"/>
+
+				<ImageView
+					android:id="@+id/albums"
+					android:layout_width="47dp"
+					android:layout_height="47dp"
+					android:layout_marginStart="269dp"
+					android:layout_marginTop="674dp"
+					android:alpha="0.30000001192093"
+					android:contentDescription="albums"
+					android:onClick="veralbum"
+					android:src="@drawable/albums"
+					tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+				<ImageView android:id="@+id/image_gallery"
+					android:src="@drawable/image_gallery"
+					android:contentDescription="image_gallery"
+					 android:alpha="0.30000001192093"
+					android:layout_marginStart="187dp"
+					android:layout_marginTop="672dp"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:onClick="partinhar"/>
+
+				<ImageView
+					android:id="@+id/search_for_love"
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:layout_marginStart="346dp"
+					android:layout_marginTop="676dp"
+					android:contentDescription="search_for_love"
+					android:onClick="encontraramigos"
+					android:src="@drawable/search_for_love" />
+
+				<TextView android:id="@+id/criar_album"
+					android:textStyle="bold"
+					android:alpha="0.3"
+					 android:textSize="13sp"
+					android:textColor="@color/criar_album_color"
+					android:layout_marginLeft="87dp"
+					android:layout_marginTop="718dp"
+					android:layout_width="92.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/criar_album_string"
+					 />
+
+				<TextView android:id="@+id/encontrar"
+					android:textStyle="bold"
+					android:textSize="13sp"
+					android:textColor="@color/criar_album_color"
+					android:layout_marginLeft="341dp"
+					android:layout_marginTop="717dp"
+					android:layout_width="77.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/encontrar_string"
+					 />
+
+				<TextView android:id="@+id/album"
+					android:textStyle="bold"
+					android:alpha="0.3"
+					 android:textSize="13sp"
+					android:textColor="@color/criar_album_color"
+					android:layout_marginLeft="268dp"
+					android:layout_marginTop="718dp"
+					android:layout_width="63.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/album_string"
+					 />
+
+				<TextView android:id="@+id/partinhar"
+					android:textStyle="bold"
+					android:alpha="0.3"
+					 android:textSize="13sp"
+					android:textColor="@color/criar_album_color"
+					android:layout_marginLeft="182dp"
+					android:layout_marginTop="718dp"
+					android:layout_width="75.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/partinhar_string"
+					 />
+
+				<TextView android:id="@+id/home"
+					android:textStyle="bold"
+					android:alpha="0.3"
+					 android:textSize="13sp"
+					android:textColor="@color/criar_album_color"
+					android:layout_marginLeft="29dp"
+					android:layout_marginTop="718dp"
+					android:layout_width="54.5dp"
+					android:layout_height="27.5dp"
+					android:text="@string/home_string"
+					 />
+
+				<ImageView
+					android:id="@+id/vector_ek1"
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:layout_marginStart="29dp"
+					android:layout_marginTop="678dp"
+					android:alpha="0.30000001192093"
+					android:contentDescription="vector_ek1"
+					android:onClick="home"
+					android:src="@drawable/homev" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

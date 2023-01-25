@@ -1,0 +1,144 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/resgistar" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_resgistar_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__resgistar_ek2"
+					android:background="@drawable/_bg__resgistar_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="736dp" />
+
+				<TextView android:id="@+id/sign_up"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="48sp"
+					android:textColor="@color/sign_up_color"
+					android:layout_marginLeft="27dp"
+					android:layout_marginTop="263dp"
+					android:layout_width="223dp"
+					android:layout_height="84dp"
+					android:text="@string/sign_up_string"
+					 />
+
+
+
+<Button
+
+	android:id="@+id/btn_continuar"
+	android:layout_width="229dp"
+	android:layout_height="60dp"
+	android:layout_marginStart="92dp"
+	android:layout_marginTop="565dp"
+	android:hint="Registar"
+	android:textColorHint="@color/white"
+	android:background="@drawable/rectangle_53_shape"
+
+	/>
+
+
+
+				<TextView android:id="@+id/j__tenha_fa_o_parte___"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/j__tenha_fa_o_parte____color"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="684dp"
+					android:layout_width="197dp"
+					android:layout_height="41dp"
+					android:text="@string/j__tenha_fa_o_parte____string"
+					 />
+
+				<TextView
+					android:id="@+id/login"
+					android:layout_width="66dp"
+					android:layout_height="48dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="257dp"
+					android:layout_marginTop="684dp"
+					android:gravity="center"
+					android:text="@string/login_string"
+					android:textColor="@color/sign_up_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+
+
+				<EditText android:id="@+id/email_id"
+					android:layout_marginTop="354dp"
+					android:layout_width="316dp"
+					android:layout_height="50dp"
+					android:layout_marginLeft="50dp"
+					android:hint="Email"
+					android:textSize="25dp"
+					android:textColorHint="@color/sign_up_color"
+					android:background="@drawable/rectangle_14_shape"
+					android:layout_marginBottom="30dp"
+					android:paddingLeft="30dp"
+					 />
+				<EditText android:id="@+id/senha"
+					android:layout_marginTop="454dp"
+					android:layout_width="316dp"
+					android:layout_height="50dp"
+					android:layout_marginLeft="50dp"
+					android:hint="Senha"
+					android:textSize="25dp"
+					android:textColorHint="@color/sign_up_color"
+					android:background="@drawable/rectangle_14_shape"
+					android:layout_marginBottom="30dp"
+					android:paddingLeft="30dp"
+					/>
+
+
+
+				<ImageView
+					android:id="@+id/google_btn"
+					android:layout_width="87dp"
+					android:layout_height="88dp"
+					android:layout_marginTop="600dp"
+					android:background="@drawable/google"/>
+
+
+
+				<View   android:id="@+id/line_2"
+					android:background="@drawable/line_2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="678dp"
+					android:layout_width="414dp"
+					android:layout_height="1dp" />
+
+
+
+				<ImageView android:id="@+id/fingerprint_bro"
+					android:src="@drawable/fingerprint_bro"
+					android:contentDescription="fingerprint_bro"
+					 android:layout_marginStart="24dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="390dp"
+					android:layout_height="294dp" />
+
+
+
+            </RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
